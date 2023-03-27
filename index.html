@@ -5,23 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Notifications page</title>
-
+  
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
+  <link href="./dist/output.css" rel="stylesheet">
+  </head>
 <body>
 
-  Notifications 3
+  <header class="mt-6 mx-3 flex justify-between">
+    <h1 class="text-xl font-bold">
+      Notifications 
+      <span class="ml-2 bg-blue text-white rounded-md px-3">3</span>
+    </h1>
+    <a class="text-md text-gb" href="#">Mark all as read</a>
+  </header>
+  <main class="container">
+    <div class="notification">
+      <img src="" alt="notification user avatar" class="notification-avatar">
+      <span class="notification-username">Mark Webber</span>
+      <span class="notification-message">reacted to your recent post</span>
+      <span class="notification-action">My first tournament today!</span>
+      <p class="notification-time">1m ago</p>
+    </div>
+    <div class="notification">
+      <img src="" alt="notification user avatar" class="notification-avatar">
+      <span class="notification-username">Mark Webber</span>
+      <span class="notification-message">reacted to your recent post</span>
+      <span class="notification-action">My first tournament today!</span>
+      <p class="notification-time">1m ago</p>
+    </div>
 
-  Mark all as read
-
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+  </main>
 
   Angela Gray followed you
   5m ago
