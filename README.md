@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/cristianoso19/fm.NotificationsPage)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [See on vercel.com](https://fmnotificationspage.vercel.app/)
 
 ## My process
 
@@ -52,6 +52,7 @@ Users should be able to:
 ### What I learned
 
 I practice js concepts, tailwindcss, npm, purgecss, and practice some flexbox concepts.
+I learn animations such as ping class, that is part of tailwind css
 
 Cards implementation
 
