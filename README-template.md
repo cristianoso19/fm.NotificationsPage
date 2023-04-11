@@ -11,12 +11,9 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,19 +28,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### 🖥️ Desktop view
+![](./design/screenshot.png)
+#### 📱Mobile view
+![](./design/mobileshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [GitHub](https://github.com/cristianoso19/fm.NotificationsPage)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -51,63 +45,39 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- TailwindCss
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I practice js concepts, tailwindcss, npm, purgecss, and practice some flexbox concepts.
 
-To see how you can add code snippets, see below:
+Cards implementation
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+  <div id="notification-card-1" class="mt-3 bg-verylightgb rounded-md flex justify-between p-3 ">
+    <img src="./assets/images/avatar-mark-webber.webp" alt="notification user avatar" class="w-12 h-12 ">
+    <div id="notification-card-details" class="ml-2 text-sm flex-auto">
+      <a href="#" class="font-bold hover:text-blue">Mark Webber</a>
+      <span class="text-darkgb">reacted to your recent post</span>
+      <a href="#" class="font-bold text-darkgb cursor-pointer hover:text-blue">My first tournament today!</a>
+      <span id="notification-ping">
+        <span class="absolute inline-block rounded-full mt-2 ml-1 p-1 bg-red"> </span>
+        <span class="relative inline-block animate-ping rounded-full ml-1 p-1 bg-red"> </span>
+      </span>
+      <p class="text-gb mt-1">1m ago</p>
+    </div>
+  </div>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [cristianoso19.com](https://www.cristianoso19.com)
+- Frontend Mentor - [@cristianoso19](https://www.frontendmentor.io/profile/cristianoso19)
+- Twitter - [@cristianoso19](https://www.twitter.com/cristianoso19)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks to my wife Jenny, i 💖 you.

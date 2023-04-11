@@ -4,9 +4,11 @@ document.getElementById('notifications-counter').innerHTML = notificationCounter
 }
 
 countNotifications();
+
 let notificationCard1 = document.getElementById("notification-card-1");
 let notificationCard2 = document.getElementById("notification-card-2");
 let notificationCard3 = document.getElementById("notification-card-3");
+
 let notifications = [notificationCard1,notificationCard2,notificationCard3]
 
 let markAllAsRead = document.getElementById('mark-all-as-read'); 
