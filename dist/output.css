@@ -583,6 +583,9 @@ video {
   .lg\:max-w-2xl {
     max-width: 42rem;
   }
+  .lg\:max-w-xl {
+    max-width: 36rem;
+  }
   .lg\:flex-col {
     flex-direction: column;
   }
@@ -609,6 +612,12 @@ video {
   }
   .lg\:p-9 {
     padding: 2.25rem;
+  }
+  .lg\:p-7 {
+    padding: 1.75rem;
+  }
+  .lg\:p-8 {
+    padding: 2rem;
   }
   .lg\:align-middle {
     vertical-align: middle;
